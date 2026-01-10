@@ -1,65 +1,60 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
+import ecommerceSS from '../assets/screenshots/ecommerce.png'
+import duplicateSS from '../assets/screenshots/duplicate.png'
+import envscanSS from '../assets/screenshots/envscan.png'
+import habitflowSS from '../assets/screenshots/habitflow.png'
+import employeeSS from '../assets/screenshots/employee.png'
+import fraudSS from '../assets/screenshots/fraud.png'
+
 
 const PROJECTS = [
   {
-    title: '🩺 Mammogram Malignancy Detector',
-    desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
-    ss: '/mamo.png',
-    tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/mammo-detector'
+    title: '🛒 E-Commerce MERN Application',
+    desc: 'A full-stack MERN e-commerce application enabling users to browse products, manage cart, and perform secure online shopping.',
+    ss: ecommerceSS,
+    tech: ['React', 'Node.js', 'Express', 'MongoDB'],
+    code: 'https://github.com/Anji00925/mern-ecommerce'
   },
   {
-  title: '🧠 Mental Health Analyzer',
-  desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
-  ss: '/mentalhealth.jpg',
-  tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
-  live: 'https://mental-health-analyzer.streamlit.app/',
-  code: 'https://github.com/kunj2803/Mental-Health-Analyzer'
+    title: '📁 Duplicate File Detection System',
+    desc: 'Java-based application that scans directories to detect duplicate files using hashing techniques, improving storage efficiency.',
+    ss: duplicateSS,
+    tech: ['Java', 'SHA-256 Hashing', 'File Handling', 'Collections'],
+    code: 'https://github.com/Anji00925/duplicate-file-detection'
   },
   {
-    title: '🤖 Indian Sign Language Interpreter',
-    desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
-    ss: '/ISL.png',
-    tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/ISL-Interpreter'
+    title: '🌱 AI-Powered Environment Scan',
+    desc: 'Machine learning based Streamlit dashboard that analyzes and visualizes environmental data for intelligent insights.',
+    ss: envscanSS,
+    tech: ['Python', 'Machine Learning', 'Streamlit', 'Pandas'],
+    code: 'https://github.com/Anji00925/ai-env-scan'
   },
   {
-  title: '💼 Portfolio Website',
-  desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
-  ss: '/portfolio.jpg',
-  tech: ['React', 'Framer Motion', 'Tailwind CSS'],
-  live: '#',
-  code: 'https://github.com/kunj2803/Kunj-Portfolio'
+    title: '📈 Habit Flow',
+    desc: 'A habit tracking web application that helps users build consistency with daily streak tracking and clean UI.',
+    ss: habitflowSS,
+    tech: ['React', 'Node.js', 'MongoDB'],
+    code: 'https://github.com/Anji00925/habit-flow'
   },
   {
-    title: '💬 DocuChat – Gemini AI Chatbot',
-    desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-    ss: '/Docuchat.png',
-    tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
-    live: 'https://docuchat-chatbot.streamlit.app/',
-    code: 'https://github.com/kunj2803/Docuchat-Chatbot'
+    title: '👨‍💼 Employee Management System',
+    desc: 'Web-based employee management system for handling employee records, roles, and administrative operations.',
+    ss: employeeSS,
+    tech: ['Java', 'JSP', 'Servlets', 'MySQL'],
+    code: 'https://github.com/Anji00925/employee-management-system'
   },
   {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/kunjdesai/ProfileX'
-  },
-  {
-    title: '🧬 Breast Cancer Prediction',
-    desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
-    ss: '/breastpred.jpg',
-    tech: ['scikit-learn', 'XGBoost', 'Pandas'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/BreastCancerPrediction'
+    title: '💳 Credit Card Fraud Detection',
+    desc: 'Machine learning model to detect fraudulent credit card transactions using supervised learning algorithms.',
+    ss: fraudSS,
+    tech: ['Python', 'Scikit-learn', 'Pandas'],
+    code: 'https://github.com/Anji00925/credit-card-fraud-detection'
   }
 ]
+
+
 
 export default function Projects() {
   return (
@@ -158,26 +153,6 @@ export default function Projects() {
                     }}
                   >
                     <Github size={14} /> Code
-                  </motion.a>
-                  <motion.a
-                    href={p.live}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="btn"
-                    whileHover={{ scale: 1.08 }}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: 5,
-                      background: 'linear-gradient(90deg, #06b6d4, #0891b2)',
-                      color: '#fff',
-                      padding: '6px 12px',
-                      borderRadius: 8,
-                      fontSize: 13,
-                      textDecoration: 'none'
-                    }}
-                  >
-                    <ExternalLink size={14} /> Live
                   </motion.a>
                 </div>
               </div>
