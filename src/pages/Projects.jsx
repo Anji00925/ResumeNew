@@ -1,12 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
-import ecommerceSS from '../assets/screenshots/ecommerce.png'
+import ecommerceSS from '../assets/screenshots/e-commerce-img.png'
 import duplicateSS from '../assets/screenshots/duplicate.png'
 import envscanSS from '../assets/screenshots/envscan.png'
-import habitflowSS from '../assets/screenshots/habitflow.png'
-import employeeSS from '../assets/screenshots/employee.png'
-import fraudSS from '../assets/screenshots/fraud.png'
+import habitflowSS from '../assets/screenshots/Habitflow.png'
+// import employeeSS from '../assets/screenshots/Employee.png'
+import fraudSS from '../assets/screenshots/Credit.png'
 
 
 const PROJECTS = [
@@ -15,42 +15,35 @@ const PROJECTS = [
     desc: 'A full-stack MERN e-commerce application enabling users to browse products, manage cart, and perform secure online shopping.',
     ss: ecommerceSS,
     tech: ['React', 'Node.js', 'Express', 'MongoDB'],
-    code: 'https://github.com/Anji00925/mern-ecommerce'
+    code: 'https://github.com/Anji00925/Shop-Vix.git'
   },
   {
     title: '📁 Duplicate File Detection System',
     desc: 'Java-based application that scans directories to detect duplicate files using hashing techniques, improving storage efficiency.',
     ss: duplicateSS,
     tech: ['Java', 'SHA-256 Hashing', 'File Handling', 'Collections'],
-    code: 'https://github.com/Anji00925/duplicate-file-detection'
+    code: 'https://github.com/Anji00925/Duplicate-file-detection'
   },
   {
     title: '🌱 AI-Powered Environment Scan',
     desc: 'Machine learning based Streamlit dashboard that analyzes and visualizes environmental data for intelligent insights.',
     ss: envscanSS,
     tech: ['Python', 'Machine Learning', 'Streamlit', 'Pandas'],
-    code: 'https://github.com/Anji00925/ai-env-scan'
+    code: 'https://github.com/ryadavnitb/Batch-6/tree/Anjibabu-GLobalPolution'
   },
   {
     title: '📈 Habit Flow',
     desc: 'A habit tracking web application that helps users build consistency with daily streak tracking and clean UI.',
     ss: habitflowSS,
     tech: ['React', 'Node.js', 'MongoDB'],
-    code: 'https://github.com/Anji00925/habit-flow'
-  },
-  {
-    title: '👨‍💼 Employee Management System',
-    desc: 'Web-based employee management system for handling employee records, roles, and administrative operations.',
-    ss: employeeSS,
-    tech: ['Java', 'JSP', 'Servlets', 'MySQL'],
-    code: 'https://github.com/Anji00925/employee-management-system'
+    code: 'https://github.com/Anji00925/Habbit-Flow-Frontend.git'
   },
   {
     title: '💳 Credit Card Fraud Detection',
     desc: 'Machine learning model to detect fraudulent credit card transactions using supervised learning algorithms.',
     ss: fraudSS,
     tech: ['Python', 'Scikit-learn', 'Pandas'],
-    code: 'https://github.com/Anji00925/credit-card-fraud-detection'
+    code: 'https://github.com/Anji00925/Creditcard_fraud'
   }
 ]
 
