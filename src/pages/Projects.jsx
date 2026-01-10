@@ -4,9 +4,9 @@ import { Github, ExternalLink } from 'lucide-react'
 import ecommerceSS from '../assets/screenshots/e-commerce-img.png'
 import duplicateSS from '../assets/screenshots/duplicate.png'
 import envscanSS from '../assets/screenshots/envscan.png'
-import habitflowSS from '../assets/screenshots/Habitflow.png'
+import habitflowSS from '../assets/screenshots/habitflow.png'
 // import employeeSS from '../assets/screenshots/Employee.png'
-import fraudSS from '../assets/screenshots/Credit.png'
+import fraudSS from '../assets/screenshots/credit.png'
 
 
 const PROJECTS = [
