@@ -222,7 +222,7 @@ export default function Resume() {
         </motion.div>
 
         <motion.a
-  href="/AnjiResumeUpd.pdf"
+  href="/AnjibabuResumeUpdated.pdf"
   download
   whileHover={{ scale: 1.05 }}
   whileTap={{ scale: 0.95 }}
