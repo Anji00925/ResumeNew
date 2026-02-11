@@ -9,6 +9,7 @@ import photo from '../assets/Anji.png'
 import githubLogo from '../assets/github.png'
 import linkedinLogo from '../assets/linkedin.png'
 import gmailLogo from '../assets/gmail.png'
+import leetcodeLogo from '../assets/leetcode.png'
 import whatsappLogo from '../assets/whatsapp.png'
 import instagramLogo from '../assets/insta.png'
 // import facebookLogo from '../assets/facebook.png'
@@ -27,6 +28,7 @@ export default function Home() {
     { img: githubLogo, title: "GitHub", link: "https://github.com/Anji00925" },
         { img: linkedinLogo, title: "LinkedIn", link: "https://www.linkedin.com/in/mothe-anji-8897b0263/" },
         { img: gmailLogo, title: "Email", link: "mailto:motheanji33@gmail.com" },
+        { img: leetcodeLogo, title: "LeetCode", link: "https://leetcode.com/u/AnjiCode-5/" },
         { img: whatsappLogo, title: "WhatsApp", link: "https://wa.me/+916305304293" },
         { img: instagramLogo, title: "Instagram", link: "https://www.instagram.com/anjjjiiiiiiiii/" },
   ]
